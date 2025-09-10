@@ -25,6 +25,7 @@ curl -X POST http://127.0.0.1:5000/add -H "Content-Type: application/json" -d '{
 # Test 
 
 pip3 install pytest pytest-flask
+pip3 install flask-cors
 
 pytest -v
 
